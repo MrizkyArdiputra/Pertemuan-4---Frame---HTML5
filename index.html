@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame & HTML5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    .header_color{
+        background: rgb(75,213,41);
+background: linear-gradient(153deg, rgba(75,213,41,1) 0%, rgba(122,221,55,1) 49%, rgba(0,212,255,1) 100%);
+        
+}
+    .sidebar_color{
+        background: rgb(75,213,41);
+    }
+</style>
+
+<frameset rows="13%,*" border="5" bordercolor="rgb(75,213,41)">
+    
+
+    <frame src="Content/header.html" class="header_color">
+    
+    <frameset cols="10%,*">
+        <frame src="Content/sidebar.html" name="sidebar" class="sidebar_color">
+        <frame src="Content/home.html" name="konten">
+    </frameset>
+
+</frameset>
+</html>

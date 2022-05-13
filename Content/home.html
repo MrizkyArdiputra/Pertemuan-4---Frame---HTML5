@@ -1,0 +1,52 @@
+<html>
+    <style>
+        body {
+            background-image: url("basic.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: x-large;
+            color: white;
+        }
+        .slide-top {
+	/* -webkit-animation: slide-top 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both; */
+	        animation: slide-top 0.5s cubic-bezier(0.2, 0.72, 0.7, 0.91) both;
+        position: absolute;
+        bottom: 15px;
+        }
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-310px);
+            transform: translateY(-310px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-310px);
+            transform: translateY(-310px);
+  }
+}
+    </style>
+
+    <body>
+
+        <div class="slide-top">
+            <h1>~SELAMAT DATANG~</h1>
+        <p>
+            Ini adalah company profile cuitter<br><br><br>
+            Perusahaan ini bergerak di bidang pengerjaan tugas latihan 1 dan 2 pada pertemuan 4<br>
+            Mengandung tag "Canvas","svg", dan "video". Serta contoh embed video dari youtube<br>
+            web company profile ini telah menggunakan frame dan HTML5<br> 
+        </p>
+        </div>
+        
+    </body>
+</html>
